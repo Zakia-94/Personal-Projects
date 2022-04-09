@@ -4,7 +4,6 @@
 #define SS_PIN 53
 #define RST_PIN 49
 MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance.
-//LiquidCrystal lcd(7, 6, 5, 4, 3, 2);  //Initialise the LCD with the arduino. LiquidCrystal(rs, enable, d4, d5, d6, d7)
 LiquidCrystal lcd(8,9,4,5,6,7);
 const int LED_green = 11;
 const int LED_red = 10;
